@@ -1,0 +1,2 @@
+# Descrição do Desafio
+*Reforcei* meu conhecimento de _Programação Orientada a Objetos (POO)_, em Java com um desafio de projeto totalmente prático. Para isso, os pilares da orientação a objetos são devidamente explorados no contexto bancário, onde implementei um projeto de referência do _expert da Dio.me_ (disponibilizado no GitHub) de forma prática e interativa. Assim Consegui desenvolver minha capacidade de abstração reproduzindo essa solução. Além disso, caso queiram ir além, implemente suas próprias evoluções e melhorias! :relaxed: :kissing_closed_eyes:
