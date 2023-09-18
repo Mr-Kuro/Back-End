@@ -6,7 +6,7 @@ async function responser(req, res) {
   try {
     const resultado = await calcular(num_1, num_2, operacao);
     console.log(resultado);
-    res.status(2001).json(resultado);
+    res.status(201).json(resultado);
   } catch (error) {
     console.log(error);
     res.status(404).json({error: error.message});
