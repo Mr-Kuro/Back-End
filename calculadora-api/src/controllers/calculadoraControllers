@@ -1,0 +1,16 @@
+const { calcular } = require('../service/calculadoraServices.js');
+
+async function responser(req, res) {
+  const { num_1, num_2, operacao } = req.body;
+
+  try {
+    const resultado = await calcular(num_1, num_2, operacao);
+    console.log(resultado);
+    res.status(2001).json(resultado);
+  } catch (error) {
+    console.log(error);
+    res.status(404).json({error: error.message});
+  }
+}
+
+exports.responser = responser;
